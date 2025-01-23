@@ -7,9 +7,9 @@ vim.opt.scrolloff = 8
 vim.opt.sidescrolloff = 8
 vim.opt.ignorecase = true
 vim.opt.list = true
-vim.opt.listchars = { tab = '▸ ', trail = '·' }
+vim.opt.listchars = { tab = "▸ ", trail = "·" }
 vim.opt.relativenumber = true
-vim.o.background = "dark"
+vim.opt.background = "dark"
 vim.opt.spell = true
 vim.opt.spelllang = { "en_us" }
 
