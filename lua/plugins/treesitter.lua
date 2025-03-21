@@ -4,8 +4,10 @@ return {
 		build = ":TSUpdate",
 		config = function()
 			require("nvim-treesitter.configs").setup({
-				ensure_installed = { "lua", "python", "javascript", "typescript", "vue" },
-				ingnore_installed = { "org", "txt" },
+				TSConfig = {},
+				auto_install = true,
+				ensure_installed = { "org", "lua", "python", "javascript", "typescript", "vue" },
+				ignore_install = { "txt" },
 				sync_install = false,
 				highlight = { enable = true },
 				indent = { enable = true },
